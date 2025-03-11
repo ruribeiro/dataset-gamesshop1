@@ -59,6 +59,7 @@ Os dados utilizados para a análise são fornecidos pela empresa e incluem infor
 
 - Python para análise de dados
 - Bibliotecas como Pandas e Matplotlib para manipulação e visualização de dados
+- COPILOT - prompts
 
 ## Conclusão
 
