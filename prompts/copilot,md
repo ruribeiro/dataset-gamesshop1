@@ -1,0 +1,88 @@
+# Número Total de Vendas por Produto
+
+| Produto                | Número Total de Vendas |
+|------------------------|-------------------------|
+| NEW MEGANIUM RG35XX    | 8                       |
+| NEW MEGANIUM RG28XX    | 11                      |
+| NEW MEGANIUM RG CubeXX | 10                      |
+| NEW MEGANIUM RG 40XXV  | 11                      |
+| MEGANIUM RG353M        | 9                       |
+
+# Produto Mais Vendido e Menos Vendido por País
+
+| País       | Produto Mais Vendido       | Quantidade | Produto Menos Vendido     | Quantidade |
+|------------|----------------------------|------------|---------------------------|------------|
+| Austrália  | NEW MEGANIUM RG CubeXX     | 8          | NEW MEGANIUM RG28XX       | 1          |
+| Canadá     | NEW MEGANIUM RG 40XXV      | 5          | NEW MEGANIUM RG28XX       | 1          |
+| Alemanha   | NEW MEGANIUM RG28XX        | 4          | NEW MEGANIUM RG 40XXV     | 1          |
+| França     | NEW MEGANIUM RG35XX        | 7          | NEW MEGANIUM RG28XX       | 1          |
+| Japão      | NEW MEGANIUM RG 40XXV      | 6          | MEGANIUM RG353M           | 1          |
+| Reino Unido| NEW MEGANIUM RG35XX        | 4          | MEGANIUM RG353M           | 2          |
+| EUA        | MEGANIUM RG353M            | 3          | NEW MEGANIUM RG28XX       | 1          |
+
+# Média das Vendas por Produto
+
+| Produto                | Média de Vendas |
+|------------------------|------------------|
+| NEW MEGANIUM RG35XX    | 3                |
+| NEW MEGANIUM RG28XX    | 2.5              |
+| NEW MEGANIUM RG CubeXX | 2.2              |
+| NEW MEGANIUM RG 40XXV  | 2.9              |
+| MEGANIUM RG353M        | 2.7              |
+
+# Funções Utilizadas
+
+- `describe_image() -> str`: Retorna a descrição da imagem enviada com a mensagem anterior do usuário. Esta ferramenta é invocada automaticamente quando o usuário faz upload de uma imagem.
+- `graphic_art(prompt: str) -> str`: Chama um modelo de inteligência artificial para criar uma imagem com base na descrição de texto fornecida.
+- `search_web(query: str) -> dict`: Retorna os resultados da pesquisa do Bing em um dicionário.
+
+# Exemplo de Conversa com o Assistente
+Baseado em um exemplo hipotético para ilustrar minha personalidade:
+
+### Usuário: 
+Crie um tabela com o número total de vendas por produto
+
+### Assistente:
+Claro, Rafael! Aqui está uma tabela com o número total de vendas por produto com base nos dados fornecidos:
+
+| Produto                | Número Total de Vendas |
+|------------------------|-------------------------|
+| NEW MEGANIUM RG35XX    | 8                       |
+| NEW MEGANIUM RG28XX    | 11                      |
+| NEW MEGANIUM RG CubeXX | 10                      |
+| NEW MEGANIUM RG 40XXV  | 11                      |
+| MEGANIUM RG353M        | 9                       |
+
+Se precisar de mais informações ou outra análise dos dados, estou aqui para ajudar! 😊
+
+### Usuário: 
+crie uma tabala por país contendo o produto mais vendido e o menos vendido
+
+### Assistente:
+Baseado nos dados fornecidos, criei uma tabela com o produto mais vendido e o menos vendido por país:
+
+| País       | Produto Mais Vendido       | Quantidade | Produto Menos Vendido     | Quantidade |
+|------------|----------------------------|------------|---------------------------|------------|
+| Austrália  | NEW MEGANIUM RG CubeXX     | 8          | NEW MEGANIUM RG28XX       | 1          |
+| Canadá     | NEW MEGANIUM RG 40XXV      | 5          | NEW MEGANIUM RG28XX       | 1          |
+| Alemanha   | NEW MEGANIUM RG28XX        | 4          | NEW MEGANIUM RG 40XXV     | 1          |
+| França     | NEW MEGANIUM RG35XX        | 7          | NEW MEGANIUM RG28XX       | 1          |
+| Japão      | NEW MEGANIUM RG 40XXV      | 6          | MEGANIUM RG353M           | 1          |
+| Reino Unido| NEW MEGANIUM RG35XX        | 4          | MEGANIUM RG353M           | 2          |
+| EUA        | MEGANIUM RG353M            | 3          | NEW MEGANIUM RG28XX       | 1          |
+
+### Usuário: 
+plot um grafico considerando média das vendas por produto
+
+### Assistente:
+Calculando a média de vendas para cada produto... Pronto!
+
+| Produto                | Média de Vendas |
+|------------------------|------------------|
+| NEW MEGANIUM RG35XX    | 3                |
+| NEW MEGANIUM RG28XX    | 2.5              |
+| NEW MEGANIUM RG CubeXX | 2.2              |
+| NEW MEGANIUM RG 40XXV  | 2.9              |
+| MEGANIUM RG353M        | 2.7              |
+
+Se precisar de mais alguma análise ou gráfico, sinta-se à vontade para me avisar! 😊
